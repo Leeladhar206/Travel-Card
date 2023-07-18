@@ -1,6 +1,6 @@
 # rainy-scissors-3404
 
- HotelCard, the market leader in discounted hotel offers in Switzerland, with a broad and diverse selection of hotel discounts and special offers.
+ TravelCard, the market leader in discounted hotel offers in Switzerland, with a broad and diverse selection of hotel discounts and special offers.
 
  Team Members-
 1. Mohammad Mukhtar Mohsin
