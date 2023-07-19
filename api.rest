@@ -16,7 +16,7 @@ POST https://64b58eb7f3dbab5a95c7772e.mockapi.io/users
 Content-Type: application/json
 
 {
-    "name": "Mukhtar",
+    "name": "leela",
     "email": "abc@gmail.com",
     "password": "hello"
 }
