@@ -1,0 +1,96 @@
+@font-face {
+  font-family: GT Walsheim Pro;
+  src: local("GT Walsheim Pro Regular"),local("GTWalsheimProRegular"),url(GTWalsheimProRegular.woff2) format("woff2"),url(GTWalsheimProRegular.woff) format("woff"),url(GTWalsheimProRegular.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal
+}
+
+@font-face {
+  font-family: GT Walsheim Pro;
+  src: local("GT Walsheim Pro Bold"),local("GTWalsheimProBold"),url(GTWalsheimProBold.woff2) format("woff2"),url(GTWalsheimProBold.woff) format("woff"),url(GTWalsheimProBold.ttf) format("truetype");
+  font-weight: 700;
+  font-style: normal
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: GT Walsheim Pro;
+    background-color: white;
+    color: #2a3348;
+    text-decoration: none;
+}
+#topstickynav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    height: 8.5vh;
+    width: 100vw;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+#navdiv{
+    flex-grow: 4;
+}
+#navdiv>nav{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+#navdiv>nav>button{
+    border: none;
+    font-size: 1.2rem;
+}
+#topstickynav>div{
+    height: 100%;
+}
+#logodiv>img{
+    height: 100%;
+}
+#loginandcarddiv{
+    display: flex;
+    flex-grow: 2;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    
+}
+#loginandcarddiv>button{
+    border: 2px solid #f74d4d;
+    /* border: #f74d4d; */
+    width: 30%;
+    height: 75%;
+    border-radius: 2em;
+    font-size: 1.2rem;
+    color: #f74d4d;
+    transition: background-color 0.3s ease-out;
+}
+#loginandcarddiv>button:nth-child(1){
+    width: 35%;
+    background-color: #f74d4d;
+    color: white;
+    /* transition: background-color 0.3s ease; */
+}
+#loginandcarddiv>button:nth-child(1)>a{
+    background-color: inherit;
+    color: inherit;
+}
+#loginandcarddiv>button:nth-child(1):hover{
+    background-color: white;
+    color: #f74d4d;
+    cursor: pointer;
+}
+#loginandcarddiv>button:nth-child(2):hover{
+    color: white;
+    background-color: #f74d4d;
+    cursor: pointer;
+}
+#icon{
+    transition: fill 0.3s ease, background-color 0.3s ease-out;
+}
+
+#loginandcarddiv>button:nth-child(2):hover>svg{
+    fill: white;
+    background-color: #f74d4d;
+}
