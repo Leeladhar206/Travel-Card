@@ -1,0 +1,314 @@
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+#container{
+     /* border: 2px solid red; */
+     position: relative;
+     height: 350px;
+     width: auto;
+}
+
+#container img{
+    width: 100%;
+    height: 350px;
+}
+
+#container #text{
+    position: absolute;
+    top: 20px;
+    left: 200px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    color: white;
+}
+
+
+.card{
+    /* border: 2px solid red; */
+    width: 80%;
+    margin-left: 140px;
+    margin-top: 40px;
+    height: 350px;
+    display: flex;
+}
+
+/* .card div{
+     border: 2px solid red;
+} */
+.card .left{
+    width: 550px;
+}
+.card .mid{
+     width: 400px;
+}
+.card .right{
+     width: 400px;
+}
+
+ .left h1{
+    color: #193147;
+ }
+
+
+.left p{
+      font-size: 1.5em;
+      font-family:serif;
+      font-style: normal;
+      font-weight: 400;
+}
+
+.mid img{
+      width: 290px;
+      height: 180px;
+      border-radius: 15px;
+      margin-left: 50px;
+      margin-top: 20px;
+}
+
+.right .rightOne{
+       width: 80%;
+       height: 50px;
+       margin-top: 15px;
+       margin-left: 40px;
+       display: flex;
+       
+}
+
+
+.rightOne .One_One{
+    background:#193147;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+    
+}
+
+.rightOne .One_One > div{
+     margin-top: 3px;
+     text-align: center;
+     font-size: 28px;
+     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     color: white;
+}
+
+.rightOne .One_Two{
+     margin-left: 15px;
+     width: 70%;
+     margin-top: 10px;
+     font-size: 19px;
+}
+
+
+
+
+
+.midcontainer{
+    /* border: 2px solid red; */
+    margin-top: 70px;
+    height: 370px;
+    width: 75%;
+    margin-left: 170px;
+    display: flex;
+    
+}
+
+.midcontainer .midone{
+      width: 40%;
+      /* border: 2px solid red; */
+      height: 300px;
+      margin-top: 30px;
+     text-align: center;
+      background-color:white;
+     
+    position: absolute;
+    margin-left: 450px;
+     border-radius: 20px;
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.midcontainer .midtwo{
+    width: 50%;
+    /* border: 2px solid red; */
+    height: 370px;
+     
+}
+
+.midtwo .midimg{
+    width: 100%;
+    height: 370px;
+    
+}
+
+.midcontainertwo{
+    /* border: 2px solid red; */
+    margin-top: 70px;
+    height: 370px;
+    width: 75%;
+    margin-left: 170px;
+    display: flex;
+    
+}
+
+.midcontainertwo .midtwo_one{
+    width: 40%;
+    /* border: 2px solid red; */
+    height: 370px;
+    margin-left: 500px;
+
+     position: absolute;
+}
+
+.midcontainertwo .midtwo_two{
+     /* border: 2px solid red; */
+     width: 50%;
+     height: 300px;
+     margin-top: 35px;
+     text-align: center;
+     position: relative;
+    background-color: white;
+     /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+     box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+     border-radius: 20px;
+}
+
+.midtwo_one .midimg{
+    width: 90%;
+    height: 370px;
+    
+}
+
+.btn{
+     border-radius: 30px;
+     width: 300px;
+     margin-top: 50px;
+     margin-left: 200px;
+     border: 2px solid orangered;
+     color: orangered;
+     
+}
+
+.btn:hover{
+    background-color: orangered;
+    
+}
+
+.btn h3:hover{
+    color: white;
+}
+
+
+.info{
+       /* border: 2px solid red ; */
+       width: 80%;
+       margin-left: 100px;
+       margin-top: 50px;
+       height: 200px;
+}
+
+.info .infoOne{
+    /* border: 2px solid red; */
+    margin-left: 50px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    width: 90%;
+    height: 50px;
+    align-items: center;
+    color:#1d3652;
+}
+
+.info .infoTwo{
+      /* border: 2px solid red; */
+      margin-left: 10px;
+      margin-top: 40px;
+      text-align: center;
+      font-size: 17px;
+      color: #05112e;
+}
+
+
+.down{
+      /* border: 2px solid red; */
+      width: 80%;
+      height: 550px;
+      margin-left: 110px;
+     display: flex;
+     justify-content: space-between;
+}
+
+.downOne{
+      /* border: 2px solid red; */
+      width: 30%;
+      height: 550px;
+      /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+     text-align: center;
+     background-color: #f5f7fa;
+    }
+
+
+.hotelCard{
+    border-radius: 25px;
+    margin-left: 15px;
+    margin-top: 40px;
+}
+
+.hotelCardTwo{
+      border-radius: 25px;
+      width: 350px;
+      margin-top: 37px;
+      margin-left: 10px;
+}
+
+.downOne .head{
+     color: #193147 ;
+} 
+
+.downOne .order{
+     border: 2px solid red;
+     width: 130px;
+     margin-left: 120px;
+     margin-top: 70px;
+     height: 40px;
+     text-align: center;
+     border-radius: 25px;
+}
+.downOne .order p{
+       margin-top: 10px;
+       color: orangered;
+}
+
+.downOne .order:hover{
+    background-color: orangered;
+    
+}
+
+.downOne .order p:hover{
+     color: white;
+}
+
+.down .downOne .word::before{
+       color: lightgreen;
+       font-size: 30px;
+       content: "99";
+       font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.down .downOne .wordOne::before{
+      color: lightgreen;
+      font-size: 30px;
+      content: "79";
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.down .downOne p{
+    margin-top: 10px;
+}
+
+
+
