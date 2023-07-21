@@ -1,0 +1,153 @@
+.upper{
+    background-color: #f7f8fa;
+    height: 50px;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+
+}
+.upper > div{
+    padding-left: 100px;
+}
+.span{
+    color: #f74d4d;
+    font-size: 17px;  
+}
+.start-box {
+max-width: 970px;
+margin-left: auto;
+margin-right: auto;
+font-weight: 200;
+}
+.start-box > p > img{
+    width: 100%;
+}
+.start-box h2 {
+font-size: 50px;
+line-height: 40px;
+letter-spacing: -.1px;
+font-weight: 500;
+font-family: inherit;
+line-height: 70px;
+letter-spacing: -.5px;
+    
+}
+.start-box > p{
+    font-size: 23px;
+    font-weight: 200;
+    font-family: 'GT Walsheim';
+}
+.card1{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    text-align: center;
+}
+.card1 > div{
+    background-color: #f7f8fa;
+}
+.card1 > div > h3{
+    width: 70%;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'GT Walsheim';
+}
+.card1 > div > p{
+    width: 85%;
+    margin: auto;
+    font-weight: 200;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    font-size: 17px;
+}
+.red{
+    background: #f7f8fa;
+    font-size: 84px;
+    color: #f74d4d;            
+    align-items: center;           
+}
+.card2{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px; 
+}
+.card2 img{
+    width: 100%;
+}
+.card3{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px; 
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+}
+.card3 > div{
+    background-color: #f7f8fa;
+}
+.card3 > div > h3{
+    line-height: 30px;
+    padding-top: 28px;
+    padding-bottom: 22px;
+    font-weight: 500;
+    font-size: 23px;
+    text-align: center;
+}
+.card3_div{
+    display: flex;
+}
+.card3_div > p{
+    width: 250px;
+    font-size: 17px;
+    line-height: 25px;
+    text-align: center;
+}
+.mid-butn{
+padding-top: 30px;
+
+height: 50px;
+padding-bottom: 100px;
+}
+.mid-butn button{
+line-height: 20px;
+color:#e96767;
+padding: 12px 30px;
+text-decoration: none;
+font-size: 17px;
+font-weight: bold;
+text-transform: uppercase;
+background: rgba(67, 94, 212, 0);
+border-radius: 25px;
+cursor: pointer;  
+}
+.mid-butn button:hover{
+background: rgba(0,0,0,1);
+border-radius: 6px;
+border-radius: 25px;
+}
+.red1{
+    font-size: 50px;
+    color: #f74d4d;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+.card3_div1{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    font-size: 17px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-weight: 200;
+
+}
