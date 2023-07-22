@@ -1,0 +1,212 @@
+#loginBox{
+    position: fixed;
+    width: 65vw;
+    height: 85vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 9999;
+    display: flex;
+    border-radius: 2em;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent dark background */
+    z-index: 9998; /* Put the overlay below the popup */
+}
+#leftLogindiv{
+    height: 100%;
+    width: 45%;
+    background-color: #2a3348;
+    position: relative;
+    border-radius: 2em 0 0 2em;
+}
+#leftLogindiv ul{
+    color: white;
+    position: absolute;
+    top: 45%;
+    left: 10%;
+}
+#leftLogindiv li{
+    color: white;
+    position: relative;
+    padding-left: 5%;
+}
+#leftLogindiv li::before{
+    content: '\2713'; /* Unicode code for checkmark (tick) symbol */
+    font-size: 18px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: green;
+}
+
+#leftLogindiv h1{
+    color: white;
+    font-weight: 400;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+}
+#leftLogindiv img{
+    width: 55%;
+    height: 10%;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+}
+#leftLogindiv button{
+    color: #f74d4d;
+    position: absolute;
+    top: 65%;
+    left: 10%;
+    width: 70%;
+    height: 8%;
+    border: 2px solid #f74d4d;
+    font-size: 1rem;
+    border-radius: 2em;
+    transition: background-color 0.3s ease-out;
+}
+#leftLogindiv button:hover{
+    color: white;
+    background-color: #f74d4d;
+    transition: background-color 0.3s ease-out;
+    cursor: pointer;
+}
+
+
+
+
+
+#rightLogindiv{
+    height: 100%;
+    width: 55%;
+    background-color: white;
+    position: relative;
+    border-radius: 0 2em 2em 0;
+}
+#rightLogindiv>h1{
+    color: #2a3348;
+    font-weight: 400;
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    font-size: 2rem;
+}
+#rightLogindiv>p:nth-child(2){
+    position: absolute;
+    top: 12%;
+    left: 8.5%;
+    font-size: 1.2rem;
+    color: grey;
+}
+#rightLogindiv>a:nth-child(3){
+    position: absolute;
+    top: 28%;
+    left: 10%;
+    text-decoration: underline;
+    color: #f74d4d;
+    font-size: 1.2rem;
+}
+
+#rightLogindiv>label:nth-child(4){
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    font-size: 1.2rem;
+
+}
+
+#rightLogindiv>input:nth-child(5){
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    font-size: 1rem;
+    width: 80%;
+    height: 6%;
+    border-radius: 0.5em;
+    border: 1px solid #ccc9c9;
+    padding: 10px 24px;
+}
+
+#rightLogindiv>label:nth-child(6){
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    font-size: 1.2rem;
+
+}
+
+#rightLogindiv>input:nth-child(7){
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    font-size: 1rem;
+    width: 80%;
+    height: 6%;
+    border-radius: 0.5em;
+    border: 1px solid #ccc9c9;
+    padding: 10px 24px;
+}
+
+#rightLogindiv>label:nth-child(8){
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    font-size: 1.2rem;
+}
+#forgot{
+    position: absolute;
+    top: 69%;
+    left: 63%;
+    text-decoration: underline;
+    color: #f74d4d;
+    font-size: 1.2rem;
+}
+#rightLogindiv>button:nth-child(10){
+    position: absolute;
+    top: 76%;
+    left: 10%;
+    width: 80%;
+    height: 8%;
+    font-size: 1.2rem;
+    border-radius: 0.6em;
+    background-color: #f74d4d;
+    border: 2px solid #f74d4d;
+    color: white;
+    transition: background-color 0.3s ease-out;
+    transition: border-radius 0.3s ease-out;
+}
+#rightLogindiv>button:nth-child(10):hover{
+    background-color: white;
+    color: #f74d4d;
+    cursor: pointer;
+    transition: background-color 0.3s ease-out;
+    transition: border-radius 0.3s ease-out;
+    border-radius: 2em;
+}
+
+
+#rightLogindiv>img:nth-child(11){
+    position: absolute;
+    width: 16%;
+    height: 9%;
+    top: 87%;
+    left: 10%;
+}
+
+#rightLogindiv>p:nth-child(12){
+    position: absolute;
+    top: 86%;
+    left: 30%;
+}
+#rightLogindiv>p:nth-child(12)>a{
+    color: #f74d4d;
+    text-decoration: underline;
+}
