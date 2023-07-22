@@ -18,6 +18,7 @@ body{
 	/* font-family: 'GT Walsheim'; */
     font-family: GT Walsheim Pro;
 }
+
 *{
 	margin:0;
 	padding:0;
@@ -32,6 +33,77 @@ body{
     background-repeat: no-repeat;
     background-size: 100%;
     margin-bottom: 40px;
+}
+
+
+.mid h1{
+    font-size:2.5rem;
+    font-weight: normal;
+    text-align: center;
+    margin: 40px;
+}
+
+.nexttrip {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-left: 70px;  
+}
+
+.nexttrip img{
+    border-radius: 20px;
+}
+
+.break{
+    gap:50px;
+    
+}
+
+.reviews{
+    margin: 60px;
+}
+
+.reviews h1{
+    font-size: 2.5 rem;
+    font-weight: normal;
+    text-align: center;
+}
+
+.reviews {
+    
+}
+.sub{
+    display: flex;
+    padding: 20px;
+}
+
+
+.sub h5,p{
+    text-align: justify;
+    padding: 10px;
+}
+
+.sub h5{
+    font-size: 1rem;
+}
+
+.sub > div{
+    border: 2px solid lightgrey;
+     margin-left: 15px;
+}
+
+
+ .name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* grid-template-columns: repeat(2,1fr); */
+}
+
+.break img {
+    padding:3px;
+    
 }
 
 .backimg>div {
@@ -54,24 +126,23 @@ body{
 }
 
 .backimg>div>h1 {
-    font-size: 76px;
+    font-size: 4rem;
     font-weight: bold;
+    color: white;
 }
 .backimg>div>h3 {
     font-size: 30px;
     font-weight: bold;
+    color: white;
 }
 
 .box{
     margin-top: 270px;
-
-
 }
-
 
 .box form{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     align-items: center;
     gap: 1rem;
     /* position: absolute; */
@@ -108,6 +179,7 @@ body{
 .box form .btn{
     flex: 1 1 7rem;
     padding: 10px 34px;
+    margin-top: 34px;
     border: none;
     border-radius: 0.5rem;
     background: #474fa0;
@@ -192,6 +264,10 @@ body{
 ul{
 	list-style: none;
 }
+
+
+
+
 .footer{
 	background-color: #2a3348;
     padding: 70px 0;
