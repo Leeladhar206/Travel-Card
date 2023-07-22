@@ -22,7 +22,7 @@ body{
     left: 200px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 60px;
-    color: white;
+    color:#193147;
 }
 
 
@@ -54,10 +54,10 @@ body{
 
 
 .left p{
-      font-size: 1.5em;
+      font-size: 23px;
       font-family:serif;
       font-style: normal;
-      font-weight: 400;
+      font-weight: 200;
 }
 
 .mid img{
@@ -132,6 +132,10 @@ body{
     box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
+.midcontainer .midone h4{
+      font-size: 23px;
+      font-weight: 200;
+}
 .midcontainer .midtwo{
     width: 50%;
     /* border: 2px solid red; */
@@ -175,6 +179,11 @@ body{
      /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
      box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
      border-radius: 20px;
+}
+
+.midcontainertwo .midtwo_two h4{
+     font-size: 23px;
+     font-weight: 200;
 }
 
 .midtwo_one .midimg{
