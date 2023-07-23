@@ -51,13 +51,13 @@ GET https://64b58eb7f3dbab5a95c7772e.mockapi.io/hotels?page=1&limit=5
 
 ###
 
-GET https://64b65d04df0839c97e156cc4.mockapi.io/registrations/1
+GET https://64b65d04df0839c97e156cc4.mockapi.io/registrations
 
 #get all regestrations above
 
 ###
 
-GET https://64b65d04df0839c97e156cc4.mockapi.io/registrations/?userid=11
+GET https://64b65d04df0839c97e156cc4.mockapi.io/registrations/?userid=
 
 #Get registration done by a specific user by searching userid in the Database.
 

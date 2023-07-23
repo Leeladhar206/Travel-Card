@@ -1,6 +1,17 @@
 body{
     background-color: white;
 }
+#LoggedinName{
+    height: 5vh;
+    width: 100vw;
+    background-color: #f4f3f3;
+}
+#LoggedinName>p{
+    margin-left: 45%;
+    /* margin-right: 55%; */
+    font-size: 1.6rem;
+    padding-top: 0.4%;
+}
 #selectbooking{
     display: flex;
     height: 10vh;

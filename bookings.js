@@ -9,6 +9,7 @@ if(localStorage.getItem("LoggedInUser")){
         user.id='';
         console.log("admin");
     }
+    document.querySelector("#LoggedinName>p").innerText=`Hi, ${user.name}`;
     fetchactivebookings();
 }
 else{

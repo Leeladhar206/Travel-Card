@@ -47,7 +47,7 @@ function displayLogin() {
     "<p>Existing HotelCard members have been provided with the user<br>data by E-Mail. New members will get the user data when<br>purchasing a HotelCard.</p>" +
     '<a href="buycard.html">Try HotelCard 6 months for CHF 79</a>' +
     '<label for="email" class="input-label">Email :</label>' +
-    '<input type="text" id="email" name="email" class="input-field" placeholder="Enter your Email">' +
+    '<input type="email" id="email" name="email" class="input-field" placeholder="Enter your Email">' +
     '<label for="password" class="input-label">Password :</label>' +
     '<input type="password" id="password" name="password" class="input-field" placeholder="Enter your Password">' +
     '<label><input type="checkbox" name="rememberme" value="rememberme" checked> Remember Me</label>' +
@@ -111,6 +111,12 @@ catch(err){
     console.log(err);
     LoginClick = document.getElementById("userlogin");
     LoginClick.innerHTML=err;
+    LoginClick.classList.add("button-shake");
+
+            // Remove the "button-shake" class after the animation finishes
+            setTimeout(function () {
+                LoginClick.classList.remove("button-shake");
+            }, 300);
     setTimeout(()=>{
         LoginClick.innerHTML="Login";
     },1000);
