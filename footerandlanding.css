@@ -410,12 +410,12 @@ h4{
   color: #fff;
 }
  #button2 > button{
-  background-color: #f74d4d;
-  color: #fff;
+  background-color:#fff;
+  color:  #f74d4d;
 }
 #button2 > button:hover{
-  background-color: #fff;
-  color: #f74d4d;
+  background-color:  #f74d4d;
+  color: #fff;
 }
 
 /* membership ends here */
