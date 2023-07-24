@@ -11,6 +11,18 @@ let search_input= document.getElementById("bookhotel-search-input");
 let bookhotel_search_button= document.getElementById("bookhotel-search-button");
 
 
+
+
+
+let user;
+if(localStorage.getItem("LoggedInUser")){
+    user=JSON.parse(localStorage.getItem("LoggedInUser"));
+}
+else{
+    document.getElementById("login").click();
+}
+
+
 bookhotel_sort.addEventListener("change", function(){
   if(bookhotel_sort.value==""){
     fetchHotelData(hotelURL)
@@ -170,6 +182,27 @@ function createHotelCard(data){
   let bookhotel_btn= document.createElement("button");
   bookhotel_btn.className= "bookhotel-btn"
   bookhotel_btn.innerText= "Book now";
+
+  bookhotel_btn.addEventListener("click",()=>{
+    let res=fetch(`https://64b65d04df0839c97e156cc4.mockapi.io/registrations`,{
+      method: 'POST',
+      headers: {'content-type':'application/json'},
+      body:JSON.stringify({
+        "userid": user.id,
+        "hotelid": data.id,
+        "active": true
+      })
+  }).then((res)=>{
+   return res.json();
+  }).then((result)=>{
+    console.log(result);
+    window.location.href="bookings.html";
+  })
+  })
+
+
+
+
 
   let price_div= document.createElement("div");
   price_div.className= "price-div";

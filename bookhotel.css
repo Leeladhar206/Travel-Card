@@ -276,3 +276,194 @@
     }
 
 }
+
+
+
+/* footerrrr */
+
+
+
+
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	/* flex-wrap: wrap; */
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #2a3348;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #ffffff;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.app img{
+    width: 200px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+
+
+
+/* navbar */
+
+
+
+
+
+#topstickynav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    height: 8.5vh;
+    width: 100vw;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    z-index: 100;
+  }
+  #topstickynav *{
+    text-decoration: none;
+  }
+  #navdiv{
+    flex-grow: 4;
+  }
+  #navdiv>nav{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+  }
+  #navdiv>nav>button{
+    border: none;
+    font-size: 1.2rem;
+    background-color: inherit;
+  }
+  #navdiv span{
+    color: #2a3348;
+  }
+  #topstickynav>div{
+    height: 100%;
+  }
+  #logodiv img{
+    height: 100%;
+  }
+  #loginandcarddiv{
+    display: flex;
+    flex-grow: 2;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    
+  }
+  #loginandcarddiv>button{
+    border: 2px solid #f74d4d;
+    /* border: #f74d4d; */
+    width: 30%;
+    height: 75%;
+    border-radius: 2em;
+    font-size: 1.2rem;
+    color: #f74d4d;
+    transition: background-color 0.3s ease-out;
+  }
+  #loginandcarddiv>button:nth-child(1){
+    width: 35%;
+    background-color: #f74d4d;
+    color: white;
+    /* transition: background-color 0.3s ease; */
+  }
+  #loginandcarddiv>button:nth-child(1)>a{
+    background-color: inherit;
+    color: inherit;
+  }
+  #loginandcarddiv>button:nth-child(1):hover{
+    background-color: white;
+    color: #f74d4d;
+    cursor: pointer;
+  }
+  #loginandcarddiv>button:nth-child(2):hover{
+    color: white;
+    background-color: #f74d4d;
+    cursor: pointer;
+  }
+  #icon{
+    transition: fill 0.3s ease, background-color 0.3s ease-out;
+  }
+  
+  #loginandcarddiv>button:nth-child(2):hover>svg{
+    fill: white;
+    background-color: #f74d4d;
+  }
