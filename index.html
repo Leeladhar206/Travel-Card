@@ -55,7 +55,7 @@
         <form action="">
             <div class="input-box">
                 <span>Location</span>
-                <input type="search" name="" id="" placeholder="search places">
+                <input type="search" name="" id="indexsearch" placeholder="search places">
             </div>
             <div class="input-box">
                 <span>Start Date</span>
@@ -65,7 +65,7 @@
                 <span>Return Date</span>
                 <input type="date" name="" id="">
             </div>
-            <input type="submit" value="Submit" class="btn">
+            <input type="submit" value="Submit" class="btn" id="indexbutton">
         </form>
     </div>
 
@@ -410,3 +410,8 @@ const swiper = new Swiper('.js-testimonials-slider', {
 </body>
 </html>
 <script src="testimony.js"></script>
+<script>
+  document.getElementById("indexbutton").addEventListener("click",()=>{
+    window.location.href="bookhotel.html";
+  })
+</script>
