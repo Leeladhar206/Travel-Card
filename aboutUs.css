@@ -1,0 +1,375 @@
+@font-face {
+    font-family: GT Walsheim Pro;
+    src: local("GT Walsheim Pro Regular"),local("GTWalsheimProRegular"),url(GTWalsheimProRegular.woff2) format("woff2"),url(GTWalsheimProRegular.woff) format("woff"),url(GTWalsheimProRegular.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal
+  }
+  
+  @font-face {
+    font-family: GT Walsheim Pro;
+    src: local("GT Walsheim Pro Bold"),local("GTWalsheimProBold"),url(GTWalsheimProBold.woff2) format("woff2"),url(GTWalsheimProBold.woff) format("woff"),url(GTWalsheimProBold.ttf) format("truetype");
+    font-weight: 700;
+    font-style: normal
+  }
+
+
+.upper{
+    position: fixed;
+    background-color: #e9ecef;
+    width: 100%;
+    height: 50px;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    padding-top: 55px;
+
+}
+.upper > div{
+    padding-left: 100px;
+}
+.span{
+    color: #f74d4d;
+    font-size: 17px;  
+}
+.start-box {
+max-width: 970px;
+margin-left: auto;
+margin-right: auto;
+font-weight: 200;
+padding-top: 100px;
+}
+.start-box > p > img{
+    width: 100%;
+    padding-top: 20px;
+}
+.start-box h2 {
+font-size: 50px;
+line-height: 40px;
+letter-spacing: -.1px;
+font-weight: 500;
+font-family: inherit;
+line-height: 70px;
+letter-spacing: -.5px;
+padding-top: 25px;
+padding-bottom: 25px ;
+    
+}
+.start-box > p{
+    color: #2a3348;
+    font-size: 20px;
+    font-weight:normal;
+    /* font-size: 23px; */
+    line-height: 30px;
+    text-align: left;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.card1{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    text-align: center;
+}
+.card1 > div{
+    background-color: #f7f8fa;
+}
+.card1 > div > h3{
+    width: 70%;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: GT Walsheim Pro;
+}
+.card1 > div > p{
+    width: 85%;
+    margin: auto;
+    font-weight: 200;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    font-size: 17px;
+}
+.red{
+    background: #f7f8fa;
+    font-size: 84px;
+    color: #f74d4d;            
+    align-items: center;           
+}
+.card2{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px; 
+    padding-bottom: 25px;
+    padding-top: 20px;
+}
+.card2 img{
+    width: 100%;
+}
+.card3{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px; 
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+}
+.card3 > div{
+    background-color: #f7f8fa;
+}
+.card3 > div > h3{
+    line-height: 30px;
+    padding-top: 28px;
+    padding-bottom: 22px;
+    font-weight: 500;
+    font-size: 23px;
+    text-align: center;
+}
+.card3_div{
+    display: flex;
+    padding-bottom: 25px;
+}
+.card3_div > p{
+    width: 250px;
+    font-size: 17px;
+    line-height: 25px;
+    text-align: center;
+}
+.mid-butn{
+padding-top: 30px;
+
+height: 50px;
+padding-bottom: 100px;
+}
+.mid-butn button{
+line-height: 20px;
+color:white;
+padding: 12px 30px;
+text-decoration: none;
+font-size: 16px;
+font-weight: normal;
+/* text-transform: uppercase; */
+background: #f74d4d;
+border-radius: 25px;
+cursor: pointer;  
+border: 2px solid #f74d4d;
+transition: background-color 0.3s ease-out;
+}
+.mid-butn button:hover{
+background: white;
+color: #f74d4d;
+border-radius: 6px;
+border-radius: 25px;
+transition: background-color 0.3s ease-out;
+}
+.red1{
+    font-size: 50px;
+    color: #f74d4d;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+.card3_div1{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    font-size: 17px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-weight: 200;
+
+}
+
+
+
+/* NAVBAR BELOW  */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: GT Walsheim Pro;
+    /* background-color: white; */
+    color: #2a3348;
+    text-decoration: none;
+}
+#topstickynav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    height: 8.5vh;
+    width: 100vw;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    z-index: 100;
+}
+#navdiv{
+    flex-grow: 4;
+}
+#navdiv>nav{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+#navdiv>nav>button{
+    border: none;
+    font-size: 1.2rem;
+    background-color: inherit;
+}
+#topstickynav>div{
+    height: 100%;
+}
+#logodiv img{
+    height: 100%;
+}
+#loginandcarddiv{
+    display: flex;
+    flex-grow: 2;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    
+}
+#loginandcarddiv>button{
+    border: 2px solid #f74d4d;
+    /* border: #f74d4d; */
+    width: 30%;
+    height: 75%;
+    border-radius: 2em;
+    font-size: 1.2rem;
+    color: #f74d4d;
+    transition: background-color 0.3s ease-out;
+}
+#loginandcarddiv>button:nth-child(1){
+    width: 35%;
+    background-color: #f74d4d;
+    color: white;
+    /* transition: background-color 0.3s ease; */
+}
+#loginandcarddiv>button:nth-child(1)>a{
+    background-color: inherit;
+    color: inherit;
+}
+#loginandcarddiv>button:nth-child(1):hover{
+    background-color: white;
+    color: #f74d4d;
+    cursor: pointer;
+}
+#loginandcarddiv>button:nth-child(2):hover{
+    color: white;
+    background-color: #f74d4d;
+    cursor: pointer;
+}
+#icon{
+    transition: fill 0.3s ease, background-color 0.3s ease-out;
+}
+
+#loginandcarddiv>button:nth-child(2):hover>svg{
+    fill: white;
+    background-color: #f74d4d;
+}
+
+
+/* Footer BElow */
+
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	/* flex-wrap: wrap; */
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #2a3348;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #ffffff;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.app img{
+    width: 200px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
