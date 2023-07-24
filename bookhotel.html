@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Hotel</title>
+
+    <link rel="stylesheet" href="bookhotel.css">
+</head>
+<body>
+
+    <div id="bookhotel-header">
+
+        
+        <div class="bookhotel-home" >
+            <p><a href="index.html">Home</a></p>
+            <p>&nbsp;/&nbsp;</p>
+            <p>View all hotels</p>
+        </div>
+
+         <div class="bookhotel-search-div">
+
+             
+             <select id="bookhotel-sort">
+                 <option value="">Sort By :</option>
+                 <option value="low-high">Price low to high</option>
+                 <option value="high-low">Price high to low</option>
+                 <option value="rating">Best user ratings</option>
+             </select>
+    
+              <input id="bookhotel-search-input" type="text" placeholder="Search hotels by name">
+              <button id="bookhotel-search-button">Search</button>
+         </div>
+
+    </div>
+
+        <section>
+            <div id="bookhotel-div">
+                    <p id="hello"></p>
+                    <div id="page-div"></div>
+            </div>
+        </section>
+
+    </body>
+    </html>
+
+<script src="bookhotel.js"></script>
