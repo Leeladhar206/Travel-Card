@@ -1,0 +1,469 @@
+@font-face {
+    font-family: GT Walsheim Pro;
+    src: local("GT Walsheim Pro Regular"),local("GTWalsheimProRegular"),url(GTWalsheimProRegular.woff2) format("woff2"),url(GTWalsheimProRegular.woff) format("woff"),url(GTWalsheimProRegular.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal
+  }
+  
+  @font-face {
+    font-family: GT Walsheim Pro;
+    src: local("GT Walsheim Pro Bold"),local("GTWalsheimProBold"),url(GTWalsheimProBold.woff2) format("woff2"),url(GTWalsheimProBold.woff) format("woff"),url(GTWalsheimProBold.ttf) format("truetype");
+    font-weight: 700;
+    font-style: normal
+  }
+
+
+*{
+    font-family: GT Walsheim Pro;
+  }
+  * body {
+      margin: 0px;
+      padding: 0px;
+      width: 100%;
+      font-family: GT Walsheim Pro;
+      font-weight: 400;
+      font-size: 17px;
+      background-color: #fff;
+    }
+
+    #bookhotel-header{   
+        background-color: #F4F3F3;
+        margin-top: 80px;
+    }
+
+.bookhotel-home{
+    display:flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding-left: 10%;
+ }
+ .bookhotel-home p:nth-child(3){
+     color: #f74d4d;
+    }
+ .bookhotel-home a{
+        text-decoration: none;
+        color:  #292828;
+ }
+ .bookhotel-home a:hover{
+    color: #f74d4d;
+ }
+ .bookhotel-search-div{
+    width:85%;
+    display: flex;
+    gap:5%;
+    padding: 2% 0% 2% 10%;
+ }
+
+ #bookhotel-sort{
+    padding: 1%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 20%;
+    height:3.5em;
+    font-size: 17px;
+    background-color: #fff; 
+    color: #f74d4d;
+}
+
+#bookhotel-sort option{
+    background-color: #fff;
+    color: #f74d4d;
+}
+
+
+#bookhotel-search-input{
+    padding: 1%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 20%;
+    font-size: 17px;
+    background-color: #fff; 
+    color: #f74d4d;
+}
+
+#bookhotel-search-button{
+    padding: 1%;
+    border-radius: 5px;
+    width: 30%;
+    font-size: 17px;
+    background-color: #f74d4d;
+    color: #fff; 
+    border: none;
+}
+#bookhotel-search-button:hover{
+    background-color: #fff; 
+    color: #f74d4d;
+    border: 2px solid #f74d4d;
+}
+
+#bookhotel-div{
+    width: 69%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.bookhotel-card{
+    display: flex;
+    gap:5%;
+    margin-top: 3%;
+}
+.bookhotel-img{
+    width:35%;
+}
+.bookhotel-img img{
+    width:100%;
+    padding: 5%;
+    padding-left: 2%;
+    border-radius: 40px;
+}
+
+.bookhotel-card-body{
+    width:60%;
+    padding: 2%;
+}
+
+.bookhotel-card-body img{
+    width:25px;
+}
+
+.hotelcard_div1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0px;
+}
+
+
+.hotel-stars{
+    width:15%;
+}
+.hotel-stars img{
+    width:90px
+}
+.bookhotel-rooms{
+    display: flex;
+    gap:20px;
+}
+.bookhotel-rooms p{
+    margin:2px
+}
+
+.bookhotel-name{
+    font-size: 25px;
+    margin: 0px;
+    margin-top: 5px;
+}
+
+.bookhotel-location{
+    margin: 0px;
+    font-size: 15px;
+    color: #a5a4a4;
+}
+
+.hotelcard_div2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    padding-right: 5px;
+}
+
+.bookhotel-map{
+    display: flex;
+    gap:5px;
+}
+.bookhotel-map p{
+    margin: 0px;
+    margin-top: 4px;
+}
+.discount-btn{
+    border: none;
+    color: #fff;
+    background-color: #f74d4d;
+    border-radius: 3px;
+    font-size: 15px;
+}
+
+.hotelcard_div3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.bookhotel-btn{
+    width:25%;
+    height: 3em;
+    border-radius: 30px;
+    border:2px solid #f74d4d;
+    color: #fff;
+    background-color: #f74d4d;
+    font-size: large;
+    margin-top: 4%;
+}
+
+.bookhotel-btn:hover{
+    background-color: #fff;
+    color: #f74d4d;
+}
+
+.price-div p{
+    margin: 2px ;
+    font-size: 15px;
+}
+.striked-price{
+    text-align: end;
+    font-size: 20px;
+     font-weight: 400; 
+    text-decoration: line-through;
+    margin: 5px;
+}
+.bookhotel-price{
+     margin: 5px;
+    text-align: end;
+    font-size: 23px;
+    color: #f74d4d;
+}
+
+.hotelcard_div4{
+    display: flex;
+    justify-content: space-between;
+}
+.trust-you{
+    display: flex;
+    gap:25px
+}
+.trust-you img{
+     width:18%;
+     height:90%;
+}
+.trust-you p{
+     margin-bottom: 0px;
+     color: #585757;
+}
+
+.cancellation-div{
+    display:flex;
+   width:50%;
+   gap:7px;
+   justify-content: end;
+}
+.cancellation-div img{
+    width:16px;
+    height:16px;
+    margin-top:20px;
+}
+.cancellation-div p{
+  margin-bottom:0px;
+  color: #4AB346;
+}
+.horionzontal-line{
+    width:85%;
+    border: none;
+    border-top: 1px solid #e1e0e0;
+    margin: auto;
+    margin-top: 20px;
+}
+
+@media screen and (min-width: 480px) and (max-width:800px){
+    .bookhotel-card{
+        display: flex;
+        gap:5%;
+        margin-top: 3%;
+        flex-direction: column;
+    }
+
+    .bookhotel-img{
+        width:60%;
+    }
+
+}
+
+
+
+/* footerrrr */
+
+
+
+
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	/* flex-wrap: wrap; */
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #2a3348;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #ffffff;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.app img{
+    width: 200px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+
+
+
+/* navbar */
+
+
+
+
+
+#topstickynav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    height: 8.5vh;
+    width: 100vw;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    z-index: 100;
+  }
+  #topstickynav *{
+    text-decoration: none;
+  }
+  #navdiv{
+    flex-grow: 4;
+  }
+  #navdiv>nav{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+  }
+  #navdiv>nav>button{
+    border: none;
+    font-size: 1.2rem;
+    background-color: inherit;
+  }
+  #navdiv span{
+    color: #2a3348;
+  }
+  #topstickynav>div{
+    height: 100%;
+  }
+  #logodiv img{
+    height: 100%;
+  }
+  #loginandcarddiv{
+    display: flex;
+    flex-grow: 2;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    
+  }
+  #loginandcarddiv>button{
+    border: 2px solid #f74d4d;
+    /* border: #f74d4d; */
+    width: 30%;
+    height: 75%;
+    border-radius: 2em;
+    font-size: 1.2rem;
+    color: #f74d4d;
+    transition: background-color 0.3s ease-out;
+  }
+  #loginandcarddiv>button:nth-child(1){
+    width: 35%;
+    background-color: #f74d4d;
+    color: white;
+    /* transition: background-color 0.3s ease; */
+  }
+  #loginandcarddiv>button:nth-child(1)>a{
+    background-color: inherit;
+    color: inherit;
+  }
+  #loginandcarddiv>button:nth-child(1):hover{
+    background-color: white;
+    color: #f74d4d;
+    cursor: pointer;
+  }
+  #loginandcarddiv>button:nth-child(2):hover{
+    color: white;
+    background-color: #f74d4d;
+    cursor: pointer;
+  }
+  #icon{
+    transition: fill 0.3s ease, background-color 0.3s ease-out;
+  }
+  
+  #loginandcarddiv>button:nth-child(2):hover>svg{
+    fill: white;
+    background-color: #f74d4d;
+  }

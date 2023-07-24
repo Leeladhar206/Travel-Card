@@ -30,7 +30,7 @@ GET https://64b58eb7f3dbab5a95c7772e.mockapi.io/hotels
 # hotels above.
 
 ###
-GET https://64b58eb7f3dbab5a95c7772e.mockapi.io/hotels/2
+GET https://64b58eb7f3dbab5a95c7772e.mockapi.io/hotels/3
 
 #get specific hotel by appending id.
 
@@ -57,7 +57,7 @@ GET https://64b65d04df0839c97e156cc4.mockapi.io/registrations
 
 ###
 
-GET https://64b65d04df0839c97e156cc4.mockapi.io/registrations?userid=11
+GET https://64b65d04df0839c97e156cc4.mockapi.io/registrations/?userid=
 
 #Get registration done by a specific user by searching userid in the Database.
 

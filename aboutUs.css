@@ -202,7 +202,7 @@ transition: background-color 0.3s ease-out;
     text-decoration: none;
 }
 #topstickynav{
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     display: flex;

@@ -19,7 +19,7 @@
       color: #2a3348;
       text-decoration: none;
   }
-body{
+  body{
     margin: 0%;
     padding: 0%;
 }
@@ -72,7 +72,7 @@ body{
     left: 200px;
     /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
     font-size: 60px;
-    color: white;
+    color:#193147;
 }
 
 
@@ -112,6 +112,7 @@ body{
          /* font-family:; */
       /* font-style: normal; */
       font-weight:normal;
+
 
 }
 
@@ -190,17 +191,22 @@ body{
 .midcontainer .midone{
       width: 50%;
       /* border: 2px solid red; */
-      height: 300px;
-      margin-top: 30px;
-     text-align: center;
+      height: 250px;
+      margin-top: 20px;
+     text-align: left;
       background-color:white;
      
     position: absolute;
     margin-left: 450px;
+
      border-radius:0px;
+
     /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
     /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
-    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    /* box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;  */
+     box-shadow: 0 0 13px -1px rgba(0,0,0,.3);
+     padding: 40px 22px;
 }
 
 
@@ -260,14 +266,16 @@ body{
 .midcontainertwo .midtwo_two{
      /* border: 2px solid red; */
      width: 50%;
-     height: 300px;
-     margin-top: 35px;
-     text-align: center;
+     height: 250px;
+     margin-top: 20px;
+     text-align: left;
      position: relative;
     background-color: white;
      /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+
      box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
      border-radius: 0px;
+
 }
 
 .midtwo_one .midimg{
@@ -286,6 +294,7 @@ body{
      margin-left: 180px;
      border: 2px solid orangered;
      color: orangered;
+     text-align: center;
      
 }
 
