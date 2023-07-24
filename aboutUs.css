@@ -14,11 +14,14 @@
 
 
 .upper{
-    background-color: #f7f8fa;
+    position: fixed;
+    background-color: #e9ecef;
+    width: 100%;
     height: 50px;
     font-size: 17px;
     display: flex;
     align-items: center;
+    padding-top: 55px;
 
 }
 .upper > div{
@@ -33,9 +36,11 @@ max-width: 970px;
 margin-left: auto;
 margin-right: auto;
 font-weight: 200;
+padding-top: 100px;
 }
 .start-box > p > img{
     width: 100%;
+    padding-top: 20px;
 }
 .start-box h2 {
 font-size: 50px;
@@ -45,11 +50,22 @@ font-weight: 500;
 font-family: inherit;
 line-height: 70px;
 letter-spacing: -.5px;
+padding-top: 25px;
+padding-bottom: 25px ;
     
 }
 .start-box > p{
-    font-size: 23px;
-    font-weight: 200;
+    color: #2a3348;
+    font-size: 20px;
+    font-weight:normal;
+    /* font-size: 23px; */
+    line-height: 30px;
+    text-align: left;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 .card1{
     width: 100%;
@@ -91,6 +107,8 @@ letter-spacing: -.5px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 10px; 
+    padding-bottom: 25px;
+    padding-top: 20px;
 }
 .card2 img{
     width: 100%;
@@ -117,6 +135,7 @@ letter-spacing: -.5px;
 }
 .card3_div{
     display: flex;
+    padding-bottom: 25px;
 }
 .card3_div > p{
     width: 250px;
@@ -135,9 +154,9 @@ line-height: 20px;
 color:white;
 padding: 12px 30px;
 text-decoration: none;
-font-size: 17px;
-font-weight: bold;
-text-transform: uppercase;
+font-size: 16px;
+font-weight: normal;
+/* text-transform: uppercase; */
 background: #f74d4d;
 border-radius: 25px;
 cursor: pointer;  
@@ -169,8 +188,6 @@ transition: background-color 0.3s ease-out;
     font-weight: 200;
 
 }
-
-
 
 
 
@@ -264,11 +281,7 @@ transition: background-color 0.3s ease-out;
 }
 
 
-
-
-
 /* Footer BElow */
-
 
 .container{
 	max-width: 1170px;

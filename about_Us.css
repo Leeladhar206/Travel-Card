@@ -55,11 +55,17 @@ padding-bottom: 25px ;
     
 }
 .start-box > p{
-    font-size: 23px;
-    font-weight: 200;
+    color: #2a3348;
+    font-size: 20px;
+    font-weight:normal;
     /* font-size: 23px; */
     line-height: 30px;
     text-align: left;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 .card1{
     width: 100%;
@@ -148,9 +154,9 @@ line-height: 20px;
 color:white;
 padding: 12px 30px;
 text-decoration: none;
-font-size: 17px;
-font-weight: bold;
-text-transform: uppercase;
+font-size: 16px;
+font-weight: normal;
+/* text-transform: uppercase; */
 background: #f74d4d;
 border-radius: 25px;
 cursor: pointer;  
