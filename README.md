@@ -1,40 +1,65 @@
-# rainy-scissors-3404
+# Travel Card - Hotel Booking Website
 
- TravelCard, the market leader in discounted hotel offers in Switzerland, with a broad and diverse selection of hotel discounts and special offers.
+Welcome to the Travel Card Hotel Booking website! This website is designed to help users find and book hotels conveniently and efficiently. Below, you'll find information on how to use our website and how to contribute to the project.
 
- Team Members-
-1. Mohammad Mukhtar Mohsin
-2. Jagarapu Leeladhar
-3. Suriya Singaravel
-4. Vinay Kumar Thakur
-5. Raghuwansh Singh
+## Table of Contents
 
-Design Link https://www.google.com/url?q=https://dribbble.com/shots/20910346-Case-Study-HotelCard-Brand-Identity&sa=D&source=editors&ust=1689619659451721&usg=AOvVaw0fw4Sz8R02bZ74q_RsZjTb 
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Membership Plans](#membership-plans)
+- [My Bookings](#my-bookings)
+- [Contributing](#contributing)
+- [License](#license)
 
+## Features
 
+1. **Landing Page**: Our landing page showcases basic website features and a customer feedback carousel.
+2. **About Us Page**: Learn more about our website and what sets us apart.
+3. **How It Works Page**: Understand the booking process and explore our package details.
+4. **Membership Plans**: Explore our membership plans and choose the one that suits you.
+5. **Book a Hotel**: The main objective of our website - book your preferred hotel with ease.
+6. **Sorting and Filtering**: Easily find the perfect hotel with sorting and filtering options.
+7. **My Bookings**: View your booked hotels and manage your reservations.
+8. **Buy Membership Plans**: Purchase membership plans for exclusive benefits.
+9. **Login**: Access your account and book hotels after buying a membership card.
 
-********* HOME PAGE  *********
- 
+## Getting Started
 
-![Screenshot 2023-07-22 234831](https://github.com/mdmukhtarmohsin/rainy-scissors-3404/assets/119357497/e3eb8b44-273f-49c3-b706-190e8dd8fa64)
+To get started with the Travel Card website, follow these steps:
 
+1. Clone this repository to your local machine:
 
+2. Open the project in your preferred code editor.
 
-*********  HOTEL CARD **********
+3. Configure and run the website locally following the instructions in the project's documentation.
 
-![Screenshot 2023-07-23 000244](https://github.com/mdmukhtarmohsin/rainy-scissors-3404/assets/119357497/cb6cff8d-968b-4c69-b4ff-18f4ba70dbf4)
+## Usage
 
+Once the website is set up, you can use it to:
 
-*********   ABOUT US  ***********
+- Explore hotels and packages.
+- Filter and sort hotels based on your preferences.
+- Buy membership plans to unlock exclusive benefits.
+- Log in to your account.
+- Book hotels and manage your reservations.
 
-![Screenshot 2023-07-23 000549](https://github.com/mdmukhtarmohsin/rainy-scissors-3404/assets/119357497/c2f99bc0-66b6-4260-b303-a5033d47f943)
+## Membership Plans
 
+Our website offers various membership plans, each with its own set of benefits. Choose a plan that suits your needs to enjoy discounts and other perks.
 
-**********  HOW IT WORK  **********
+## My Bookings
 
-![Screenshot 2023-07-23 000354](https://github.com/mdmukhtarmohsin/rainy-scissors-3404/assets/119357497/d65bcf0b-8c6b-436a-aac1-289802515700)
+In the "My Bookings" section, you can view a list of hotels you've booked and manage your reservations.
 
+## Contributing
 
+We welcome contributions from the community to help improve the Travel Card website. If you'd like to contribute, please follow our [Contributing Guidelines](CONTRIBUTING.md).
 
+## License
 
+This project is licensed under the [MIT License](LICENSE).
 
+---
+
+We hope you find the Travel Card Hotel Booking website useful and user-friendly. If you encounter any issues or have suggestions for improvement, please don't hesitate to [create an issue](https://github.com/your-username/travel-card-website/issues) or submit a pull request. We appreciate your feedback and contributions!
