@@ -15,14 +15,27 @@ Welcome to the Travel Card Hotel Booking website! This website is designed to he
 ## Features
 
 1. **Landing Page**: Our landing page showcases basic website features and a customer feedback carousel.
+ 
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/jcls344jvnruyvqnhwf1.png)
 2. **About Us Page**: Learn more about our website and what sets us apart.
 3. **How It Works Page**: Understand the booking process and explore our package details.
+
 4. **Membership Plans**: Explore our membership plans and choose the one that suits you.
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/7jgmx23dx52jepmc8mj5.png)
 5. **Book a Hotel**: The main objective of our website - book your preferred hotel with ease.
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/bge9kz0w4c0hipx25kgg.png)
+
 6. **Sorting and Filtering**: Easily find the perfect hotel with sorting and filtering options.
+
 7. **My Bookings**: View your booked hotels and manage your reservations.
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/cdoz3xoxpaubete8eilo.png)
 8. **Buy Membership Plans**: Purchase membership plans for exclusive benefits.
+
 9. **Login**: Access your account and book hotels after buying a membership card.
+
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/iq111hipyg5copakdd97.png)
+
 
 ## Getting Started
 
